@@ -20,7 +20,7 @@ class School
   def grade(customGrade)
     roster.each do |rosterGrade, name|
       if customGrade == rosterGrade
-        return [:roster][name]
+        return [:roster][:name]
       end
     end
   end
