@@ -14,15 +14,17 @@ class School
     else
       roster[grade] = [] #create new key in hash
       roster[grade] << name
-    end 
+    end
   end
 
   def grade(customGrade)
     roster.each do |rosterGrade, name|
       if customGrade == rosterGrade
         return name
-      end 
-    end 
-  end 
-  
+      end
+    end
+  end
+
+def sort()
+  roster.sort()
 end
