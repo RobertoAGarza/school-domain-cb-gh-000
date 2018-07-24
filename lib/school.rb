@@ -26,10 +26,5 @@ class School
   end
 
 def sort
-  roster.each do |grade, data|
-    grade.each do |attribute, names|
-      attribute.sort
-    end
-  end
-
+  roster[:grade][:name].sort
 end
