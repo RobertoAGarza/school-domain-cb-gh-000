@@ -27,7 +27,7 @@ class School
 
   def sort
     roster.sort
-    roster[:grade][:name].sort
+    roster[:grade][0].sort
   end
 
 end
