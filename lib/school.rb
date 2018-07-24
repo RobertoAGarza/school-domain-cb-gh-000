@@ -30,7 +30,7 @@ class School
     roster.each do |grade, name|
       name.each do |attribute, data|
         attribute.sort
-      end 
+      end
     end
   end
 
